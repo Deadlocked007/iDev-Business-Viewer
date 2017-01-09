@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,6 +84,8 @@ class ViewController: UIViewController {
                     self.phoneLabel.text = business["phone"].stringValue
                     
                     self.priceLabel.text = business["price"].stringValue
+                    
+                    self.locationLabel.text = "\(business["location"]["address1"].stringValue), \(business["location"]["city"].stringValue)"
                     
                     let imageUrl = URL(string: business["image_url"].stringValue)
                     
