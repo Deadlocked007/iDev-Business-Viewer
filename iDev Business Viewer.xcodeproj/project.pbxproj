@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		885811814E5A9E25D0E14D4E /* Pods_iDev_Business_Viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF8FBAD9598FBB1B95F1D7D /* Pods_iDev_Business_Viewer.framework */; };
+		C72C45231E29B92D000D0A90 /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C45221E29B92D000D0A90 /* BusinessesViewController.swift */; };
+		C72C45251E29B9E2000D0A90 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C45241E29B9E2000D0A90 /* Business.swift */; };
+		C72C45271E29C3F8000D0A90 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C45261E29C3F8000D0A90 /* BusinessCell.swift */; };
 		C781311E1E10D90B00D75A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781311D1E10D90B00D75A46 /* AppDelegate.swift */; };
 		C78131201E10D90B00D75A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781311F1E10D90B00D75A46 /* ViewController.swift */; };
 		C78131231E10D90C00D75A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78131211E10D90C00D75A46 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 		5CF8FBAD9598FBB1B95F1D7D /* Pods_iDev_Business_Viewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDev_Business_Viewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B616EA3263595F0BD74ADB9 /* Pods-iDev Business Viewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDev Business Viewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDev Business Viewer/Pods-iDev Business Viewer.release.xcconfig"; sourceTree = "<group>"; };
 		7EE66E50AF0A7F4355E155CD /* Pods-iDev Business Viewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDev Business Viewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDev Business Viewer/Pods-iDev Business Viewer.debug.xcconfig"; sourceTree = "<group>"; };
+		C72C45221E29B92D000D0A90 /* BusinessesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
+		C72C45241E29B9E2000D0A90 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		C72C45261E29C3F8000D0A90 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		C781311A1E10D90B00D75A46 /* iDev Business Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDev Business Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C781311D1E10D90B00D75A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C781311F1E10D90B00D75A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 				C78131241E10D90C00D75A46 /* Assets.xcassets */,
 				C78131261E10D90C00D75A46 /* LaunchScreen.storyboard */,
 				C78131291E10D90C00D75A46 /* Info.plist */,
+				C72C45221E29B92D000D0A90 /* BusinessesViewController.swift */,
+				C72C45241E29B9E2000D0A90 /* Business.swift */,
+				C72C45261E29C3F8000D0A90 /* BusinessCell.swift */,
 			);
 			path = "iDev Business Viewer";
 			sourceTree = "<group>";
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72C45271E29C3F8000D0A90 /* BusinessCell.swift in Sources */,
 				C78131201E10D90B00D75A46 /* ViewController.swift in Sources */,
+				C72C45251E29B9E2000D0A90 /* Business.swift in Sources */,
 				C781311E1E10D90B00D75A46 /* AppDelegate.swift in Sources */,
+				C72C45231E29B92D000D0A90 /* BusinessesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +389,7 @@
 				C781312E1E10D90C00D75A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
